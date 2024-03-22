@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Lamont Brooks Resume</title>
+        <style>
+            .footer{
+                text-align: center;
+                padding: 10px;
+                background-color: #ddd;
+            }
+            table{
+                width: 100%;
+                border: 1px solid black; 
+            }
+            dt{
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+            section{
+                padding: 10px;
+                border: 1px solid black;
+                margin: 10px;
+            }
+    </style>
+    </head>
+    <body>
+        <header class="header"><h1>Lamont Brooks Resume</h1></header>
+        <nav class="navbar"> 
+         <ul>
+            <li><a href="#Exp">Experience </a></li>
+            <li><a href="#Edu">Education </a></li>
+            <li><a href="#Int">Intrests </a></li>
+            <li><a href="#Ski">Skills </a></li>
+            <li><a href="#Con">Contact </a></li>
+         </ul>
+        </nav>
+        <article> <p>
+            Welcome to my website, hope you enjoy it.
+        </p>
+        <hr>
+        <p>My name is Lamont Brooks</p>
+        <img width="200px" height="200px" src="https://static-cdn.jtvnw.net/jtv_user_pictures/f52974b8-495b-4fa3-b4cd-0d5b277b8e42-profile_image-70x70.png"
+        </article>
+        <section id="Exp">
+            <h2>Expereience</h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: #ddd;"
+                </colgroup>
+                <tr><th>Company</th>
+                    <th>Details</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>Door Dash</td>
+                    <td>Delivery Driving</td>
+                    <td>2022 - 2024</td>
+                </tr>
+                <tr>
+                    <td>Uber</td>
+                    <td>Delivery Driving</td>
+                    <td>2023 - 2024</td>
+                </tr>
+                <tr>
+                    <td>UFP</td>
+                    <td>Packer</td>
+                    <td>2021 - 2022</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Edu">
+          <h2>Education</h2>
+          <dl>
+             <dt>My High School</dt>
+             <dd>Diploma</dd>
+          </dl>
+        </section>
+        <section id="Int">
+            <h2>Intrests</h2>
+            <ul>
+                <li>Computers</li>
+                <li>Fashion</li>
+                <li>Sauce</li>
+            </ul>
+        </section>
+        <section id="Ski">
+            <h2>Skills</h2>
+            <ol>
+                <li>CCS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <ul>
+                    <li>DOM</li>
+                    <li>Node</li>
+                    <li>Google Apps Script</li>
+                </ul>
+            </ol>
+        </section>
+        <section id="Con">
+            <h2>Contact Me</h2>
+            <p>
+                Contact me at my email <a href="mailto:lamont.brooks01@gmail.com">My Email Address</a>
+            </p>       
+        </section>
+        <p>Go to <a href="index.html"> Last Page</a></p>
+        <footer class="footer">Copyright (c) 2024 Lamont Brooks Content please contact me to find out more.</footer>
+    </body>
+</html>
